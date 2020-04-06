@@ -23,7 +23,7 @@ import com.mindtree.brand.service.CommonService;
 public class ClientController {
 	@Autowired
 	private CommonService service;
-
+	//change1
 	public ErrorDto createErrorDto(Exception e) {
 		ErrorDto dto = new ErrorDto();
 		dto.setErrorType(e.getClass().getCanonicalName());
