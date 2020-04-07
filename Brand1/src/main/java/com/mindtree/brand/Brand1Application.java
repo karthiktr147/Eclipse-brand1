@@ -9,7 +9,7 @@ public class Brand1Application {
 //conflict change1
 
 //conflict change2
-
+//conflict change 3
 		SpringApplication.run(Brand1Application.class, args);
 	}
 
