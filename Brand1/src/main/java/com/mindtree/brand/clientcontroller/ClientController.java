@@ -52,7 +52,7 @@ public class ClientController {
 			return new ResponseEntity<Brand>(HttpStatus.BAD_REQUEST);
 
 	}
-//change3
+//change32
 	@GetMapping("/getBrand/{brandId}")
 	public ResponseEntity<?> getBrandByid(@PathVariable int brandId) {
 		Brand brand2 = null;
