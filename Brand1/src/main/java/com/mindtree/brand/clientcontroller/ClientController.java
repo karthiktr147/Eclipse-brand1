@@ -23,7 +23,7 @@ import com.mindtree.brand.service.CommonService;
 public class ClientController {
 	@Autowired
 	private CommonService service;
-//change1
+
 	public ErrorDto createErrorDto(Exception e) {
 		ErrorDto dto = new ErrorDto();
 		dto.setErrorType(e.getClass().getCanonicalName());
@@ -41,7 +41,7 @@ public class ClientController {
 
 		return new ResponseEntity<Brand>(brand2, HttpStatus.OK);
 	}
-//change2
+
 	@GetMapping("/getallBrand")
 	public ResponseEntity<?> getAllBrand() {
 		List<Brand> list = new ArrayList<Brand>();
@@ -52,7 +52,7 @@ public class ClientController {
 			return new ResponseEntity<Brand>(HttpStatus.BAD_REQUEST);
 
 	}
-//change34
+
 	@GetMapping("/getBrand/{brandId}")
 	public ResponseEntity<?> getBrandByid(@PathVariable int brandId) {
 		Brand brand2 = null;
