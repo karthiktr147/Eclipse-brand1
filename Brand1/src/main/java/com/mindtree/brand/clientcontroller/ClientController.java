@@ -52,7 +52,11 @@ public class ClientController {
 			return new ResponseEntity<Brand>(HttpStatus.BAD_REQUEST);
 
 	}
+<<<<<<< HEAD
 
+=======
+//change32
+>>>>>>> branch 'master' of https://github.com/karthiktr147/Eclipse-brand1.git
 	@GetMapping("/getBrand/{brandId}")
 	public ResponseEntity<?> getBrandByid(@PathVariable int brandId) {
 		Brand brand2 = null;
