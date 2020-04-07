@@ -41,7 +41,7 @@ public class ClientController {
 
 		return new ResponseEntity<Brand>(brand2, HttpStatus.OK);
 	}
-
+//change2
 	@GetMapping("/getallBrand")
 	public ResponseEntity<?> getAllBrand() {
 		List<Brand> list = new ArrayList<Brand>();
