@@ -9,7 +9,11 @@ public class Brand1Application {
 //conflict change1
 
 //conflict change2
+<<<<<<< HEAD
 //conflict change 3
+=======
+//change3
+>>>>>>> branch 'master' of https://github.com/karthiktr147/Eclipse-brand1.git
 		SpringApplication.run(Brand1Application.class, args);
 	}
 
