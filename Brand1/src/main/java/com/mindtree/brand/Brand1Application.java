@@ -5,8 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Brand1Application {
+
 //conflict change1
-	public static void main(String[] args) {
+
+//conflict change2
+
 		SpringApplication.run(Brand1Application.class, args);
 	}
 
